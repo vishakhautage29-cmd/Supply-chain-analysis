@@ -1,63 +1,47 @@
-
-# World Bank Logistics Performance Index (LPI) – Data Analytics Project
+# World Bank Logistics Performance Index (LPI) – Excel Analysis
 
 ## 📌 Project Overview
-An end-to-end data analytics project using the World Bank Logistics Performance Index (LPI) dataset. The project analyzes logistics performance across countries, regions, and income groups using Excel, SQL, Power BI, and Tableau.
+This project analyzes the World Bank Logistics Performance Index (LPI) dataset using Microsoft Excel. The goal is to explore logistics performance across countries, regions, and income groups.
 
-## 🎯 Objectives
-- Analyze global logistics performance
-- Compare LPI across regions and income groups
-- Identify trends in logistics performance
-- Create meaningful KPIs and visualizations
-- Build interactive dashboards for data-driven insights
-
-## 🛠️ Tools & Technologies
-- Excel
+## 🛠️ Tools Used
+- Microsoft Excel
 - Power Query
-- SQL / MySQL
-- Power BI
-- DAX
-- Tableau Public
+- PivotTables
+- Excel Charts
+- Map Charts
 
-## 🔄 Project Workflow
-1. Data Collection
-2. Data Cleaning & Transformation
-3. SQL Data Analysis
-4. KPI Development
-5. Dashboard Creation
-6. Data Visualization & Insights
+## 📂 Dataset
+The dataset is based on the World Bank Logistics Performance Index (LPI).
 
-## 📊 Key Analysis
-- Average LPI Score
-- Highest & Lowest LPI Score
-- LPI by Region
-- LPI by Income Group
+The data includes:
+- Country Name
+- Country Code
+- LPI Score
+- Year
+- Region
+- Income Group
+
+## 🔧 Data Preparation
+- Imported the World Bank LPI dataset into Excel
+- Cleaned and transformed the data using Power Query
+- Unpivoted yearly columns
+- Removed missing LPI scores
+- Added Region and Income Group using Country Metadata
+- Prepared a master dataset for analysis
+
+## 📊 Analysis & Dashboard
+The Excel dashboard includes:
+- Average LPI
+- Highest LPI
+- Lowest LPI
+- LPI Entities
+- Average LPI by Region
 - LPI Trend Over Time
-- Country-level LPI Analysis
-- Geographic Analysis
+- LPI by Income Group
+- Country-level geographic analysis
 
-## 📁 Project Structure
-- `Excel/` – Excel dashboard and analysis
-- `SQL/` – SQL queries and analysis
-- `PowerBI/` – Power BI dashboard
-- `Tableau/` – Tableau Public dashboard
-- `Dataset/` – Source dataset
+## 📈 Key Skills Demonstrated
+Excel | Power Query | Data Cleaning | Data Transformation | PivotTables | Data Visualization | Dashboarding
 
-## 📈 Dashboards
-### Excel
-Data cleaning, PivotTables, KPIs, charts, and map visualization.
-
-### Power BI
-Interactive dashboard with DAX measures, KPIs, filters, and visualizations.
-
-### Tableau
-Interactive Tableau Public dashboard with parameters, filters, KPIs, and maps.
-
-## 💡 Key Skills Demonstrated
-Data Cleaning | SQL | Excel | Power Query | DAX | Power BI | Tableau | Data Visualization | KPI Analysis
-
-## 📚 Dataset
-World Bank Logistics Performance Index (LPI)
-
-## 👤 Author
-Vishakha Utage
+## 🎯 Project Objective
+To demonstrate practical data analytics skills by transforming raw World Bank data into an interactive Excel dashboard and extracting meaningful insights about global logistics performance.
